@@ -1,0 +1,31 @@
+/*スタイルシートがhtmlとは分離したファイルに存在する場合は文字コートを決定しなければならない*/
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.box {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
+}
+
+/* position: fixedは要素を固定する。今回は一番上に戻るボタンを作成した。*/
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#back img {
+  width: 50px;
+}
